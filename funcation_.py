@@ -61,8 +61,13 @@
 #     c=a+b
 #     print(c)
 # MyFuncation(1,2)
-def myFuncation(a,b):
-    c=a+b
-    return c
-out=myFuncation(1,2)
-print(out)
+# def myFuncation(a,b):
+#     c=a+b
+#     return c
+# out=myFuncation(1,2)
+# print(out)
+def myFun(a,b,c,e,f,g):
+    o=a+b+c+e+f+g
+    return o
+h=myFun(2,3,4,5,6,7)  
+print(h)
